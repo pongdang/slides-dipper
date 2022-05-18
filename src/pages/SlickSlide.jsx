@@ -12,6 +12,16 @@ export default function SlickSlide() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+
+    // dots: true,  // 슬라이드 밑에 점 보이게
+    // infinite: true,  // 무한으로 반복
+    // speed: 500,
+    // autoplay: true,
+    // autoplaySpeed: 2000,  // 넘어가는 속도
+    // slidesToShow: 4,  // 4장씩 보이게
+    // slidesToScroll: 1,  // 1장씩 뒤로 넘어가게
+    // centerMode: true,
+    // centerPadding: '0px',  // 0px 하면 슬라이드 끝쪽 이미지가 안잘림
   };
   return (
     <div css={container}>
