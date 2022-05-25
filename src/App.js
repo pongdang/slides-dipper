@@ -1,7 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
 import "./App.css";
-import SlickSlide from "./pages/SlickSlide";
+import KeenSlide from "./pages/KeenSlide";
+// import SlickSlide from "./pages/SlickSlide";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <section css={container}>
         <h1>React Slick 🐱</h1>
         <a href='https://react-slick.neostack.com/docs/example/simple-slider'>react-slick</a>
-        <SlickSlide />
+        {/* <SlickSlide /> */}
+        <KeenSlide />
       </section>
     </div>
   );
